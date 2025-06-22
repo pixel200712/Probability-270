@@ -39,7 +39,7 @@ def burbuja_bot_animada(texto, contenedor, velocidad=0.04):
     """, unsafe_allow_html=True)
 
 # Cargar archivo Excel
-df = pd.read_excel("C:/xampp/htdocs/phyton/Archivos/Calificaciones 1 y 2 parcial Plantel Xonacatlán.xlsx")
+df = pd.read_excel("Calificaciones 1 y 2 parcial Plantel Xonacatlán.xlsx")
 
 # Configurar Streamlit
 st.set_page_config(layout="wide", page_title="Análisis de Calificaciones")
